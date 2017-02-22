@@ -1,0 +1,90 @@
+/* Definition des polices de caractère */
+
+@font-face {
+    font-family: 'AlexBrush-Regular';
+    src: url('Fonts/AlexBrush-Regular.ttf');
+}
+
+/* Parametres genereaux */
+
+html
+{
+	height: 100%;
+}
+
+body
+{
+	display: flex;
+	background: url("images/fond_1.jpg");
+	margin: auto;
+	height: 100%;
+  	margin: 0;
+  	padding: 0;
+}
+
+/* Lisere */
+
+#lisere
+{
+	background: #BEC8CC;
+	flex: 1;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+/* Reste de la page */
+
+#bloc_page
+{
+	flex: 6;
+}
+
+/* En-tete */
+
+header
+{
+	display: flex;
+}
+
+#ma_photo
+{
+	order: 2;
+	flex: 1
+}
+
+#ma_photo img
+{
+	border: green 2px inset;
+}
+
+#identification
+{
+	order: 1;
+	flex: 5;
+	text-align: center;
+}
+
+#identification h1
+{
+	font-size: 2em;
+}
+
+#identification p
+{
+	font-size: 2em;
+	font-family: AlexBrush-Regular, serif;
+}
+
+/* Le contenu */
+
+#contenu
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+#contenu h2
+{
+	color: rgb(200,60,150);
+	text-shadow: 6px 6px 6px black;
+}
